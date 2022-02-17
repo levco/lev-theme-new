@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$theme-colors: (
+  'brand': #373675,
+  'brand-dark': #211e3c,
+  'brand-soft': #6460a4,
+  'action': #0017d9,
+  'action-dark': #020f86,
+);
+
+$white:    #ffffff !default;
+$gray-100: hsl(220, 20%, 97%);
+$gray-200: hsl(228, 20%, 95%);
+$gray-300: hsl(223, 20%, 93%);
+$gray-400: hsl(219, 27%, 88%);
+$gray-500: hsl(221, 20%, 70%);
+$gray-600: hsl(221, 20%, 60%);
+$gray-700: hsl(220, 19%, 49%);
+$gray-800: hsl(223, 25%, 35%);
+$gray-900: hsl(219, 20%, 20%);
+$black:    #1d212e !default;
+
+$pink:    #bb6bd9 !default;
+$purple:  #3c3d99 !default;
+$indigo:  #5e6ef4 !default;
+$blue:    #0066cc !default;
+$info:    #2d9cdb !default;
+$green:   #6ac994 !default;
+$teal:    #009596 !default;
+$cyan:    #73c5c5 !default;
+
+$yellow:  #ffc107 !default;
+$orange:  #ed9024 !default;
+
+$primary: #373675;
+$secondary: #0017d9;
+$success: #03a35c;
+$warning: $orange;
+
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
+
+@import "~bootstrap/scss/bootstrap";
+@import "./svg.scss";
+
