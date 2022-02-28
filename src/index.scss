@@ -33,6 +33,7 @@ $theme-colors: (
   'brand': $primary,
   'brand-dark': #211e3c,
   'brand-soft': #6460a4,
+  'brand-soft-30': hsla(244, 27%, 51%, 0.3),
   'action': $secondary,
   'action-dark': #020f86,
   'primary': $primary,
@@ -50,4 +51,3 @@ $min-contrast-ratio: 2.5;
 
 @import "~bootstrap/scss/bootstrap";
 @import "./svg.scss";
-
